@@ -1,31 +1,31 @@
 {
-  "uuid": "ecc8f112-318f-4ee2-be11-53c63b8a1139",
-  "shortName": "Analog Cameleon",
-  "longName": "Analog Cameleon",
-  "companyName": "Kerim Hadzic",
-  "versionCode": 1,
-  "versionLabel": "1.0",
-  "watchapp": {
-    "watchface": true
-  },
-  "appKeys": {
-      "WEATHER_TEMPERATURE_KEY": 1
-  },
-  "resources": {
-    "media": []
-  },
-  "targetPlatforms": [
-    "aplite",
-    "basalt"
-  ],
+    "appKeys": {
+        "WEATHER_TEMPERATURE_KEY": 1
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Kerim Hadzic",
+    "longName": "Analog Cameleon",
+    "projectType": "native",
     "resources": {
         "media": [
-                  {
-                  "type":"png",
-                  "name":"IMAGE_BACKGROUND",
-                  "file":"background.png"
-                  }
-                  ]
+            {
+                "file": "images/background.png",
+                "name": "IMAGE_BACKGROUND",
+                "type": "png"
+            }
+        ]
     },
-  "sdkVersion": "3"
+    "sdkVersion": "3",
+    "shortName": "Analog Cameleon",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "ecc8f112-318f-4ee2-be11-53c63b8a1139",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
 }

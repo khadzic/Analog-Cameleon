@@ -74,7 +74,7 @@ static void hands_update_proc(Layer *layer, GContext *ctx) {
     gpath_draw_filled(ctx, s_hour_arrow);
     
     // second hand
-    graphics_context_set_stroke_color(ctx, GColorWhite);
+    graphics_context_set_stroke_color(ctx, GColorChromeYellow);
     graphics_draw_line(ctx, second_hand, center);
   
 }
